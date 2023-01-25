@@ -53,6 +53,7 @@ header {
 
 .navigation_header {
   gap: 2.5em;
+  z-index: 2;
 }
 
 .navigation_header a {
@@ -81,6 +82,7 @@ header {
   color: var(--color-verdeazulado);
   cursor: pointer;
   display: none;
+  
 }
 
 @media screen and (max-width: 768px) {
